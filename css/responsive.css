@@ -1,0 +1,185 @@
+@media (max-width: 400px) {
+    .hero-contact {
+        display: none;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .opacity {
+        display: none;
+    }
+
+    .hero-content {
+        text-align: center;
+        height: 78vh;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 28%;
+        margin: auto;
+    }
+
+    .hero-content h2 {
+        font-size: 40px;
+    }
+
+    .btn {
+        position: absolute;
+        top: 95%;
+        left: 10%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .btn1 {
+        padding: 10px 30px;
+    }
+
+    .btn2 {
+        padding: 10px 30px;
+    }
+
+    /*--------About-------*/
+    .about{
+        margin: 4rem auto;
+    }
+    .about-content h2 {
+        font-size: 32px;
+    }
+
+    .about-text {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-btn{
+        margin-bottom: 1rem;
+    }
+
+    .about-img img {
+        margin-top: 4rem;
+        width: 80%;
+    }
+
+    /*---------Portfolio---------*/
+    .hero-port {
+        height: 95vh;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .portfolio-text ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .portfolio-text ul li {
+        padding: 10px 10px;
+    }
+
+    .portfolio-text ul li button {
+        font-size: 15px;
+    }
+
+    .portfolio-img img {
+        width: 400px;
+    }
+
+
+    /*---------Services---------*/
+    .services {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .box-content {
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    /*---------Contact---------*/
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .another-row {
+        flex-direction: column;
+    }
+
+    .row-1 {
+        margin-bottom: 0rem;
+    }
+
+    .form-control {
+        margin-top: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #selectField {
+        width: 105%;
+        margin-left: -14px;
+    }
+
+    .form-row input[type="email"] {
+        margin-top: 1rem;
+    }
+    
+    .form-btn{
+        margin-left: 4.5rem;
+        margin-bottom: 2rem;
+    }
+    .btn5{
+        margin-top: 1rem;
+
+    }
+
+    /*---------Testimonal---------*/
+    .testimonal {
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .testimonal-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .test-pic p{
+        font-weight: 500;
+        font-size: 20px;
+        margin: 10px auto;
+    }
+
+    .testiomonal-text {
+        padding: 15px;
+        width: 100%;
+    }
+    .circle{
+        text-align: center;
+        margin: auto auto;
+    }
+    .circle i{
+        padding: 10px 15px;
+    }
+}
